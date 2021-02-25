@@ -22,3 +22,53 @@
     margin-bottom: 60px;
   }
 }
+
+.vertical-posts__item {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #ddd;
+}
+
+.el_lv2Heading, .level2-heading {
+  margin-bottom: 30px;
+}
+
+.level2-heading {
+  padding-bottom: 10px;
+  border-bottom: 4px solid #e25c00;
+  font-size: 1.75rem;
+  font-weight: bold;
+}
+
+.el_lv4Heading, .level4-heading {
+  margin-bottom: 20px;
+}
+.level4-heading {
+  padding-left: 6px;
+  border-left: 2px solid #e25c00;
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+ul, ol {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  background: transparent;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  font-weight: inherit;
+  vertical-align: baseline;
+}
+.el_lv3Heading, .level3-heading {
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+
+.level3-heading {
+  padding-bottom: 6px;
+  border-bottom: 2px solid #e25c00;
+  font-size: 1.5rem;
+  font-weight: bold;
+}

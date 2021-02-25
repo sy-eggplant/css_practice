@@ -9,3 +9,28 @@
 .hp_bgcBase {
   background-color: #efefef !important;
 }
+
+.ly_cont>:last-child {
+    margin-bottom: 0;
+}
+.bl_media.bl_media__rev {
+    flex-direction: row-reverse;
+}
+.bl_media {
+    display: flex;
+    align-items: center;
+}
+.bl_media__rev .bl_media_imgWrapper {
+    margin-right: 0;
+}
+.bl_media_imgWrapper {
+    flex: 0 1 27.58333%;
+    margin-right: 3.33333%;
+}
+.bl_media_imgWrapper > img {
+  width: 100%;
+}
+img {
+  max-width: 100%;
+  vertical-align: top;
+}
