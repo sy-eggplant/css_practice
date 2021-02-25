@@ -1,0 +1,24 @@
+.content--has-column {
+  display: flex;
+  justify-content: space-between;
+}
+
+.content__main {
+  flex: 1;
+  margin-right: 3.25203%;
+}
+
+.content__side {
+  flex: 0 0 260px;
+}
+
+@media screen and (max-width: 768px) {
+  .content--has-column {
+    flex-direction: column;
+  }
+
+  .content__main {
+    margin-right: 0;
+    margin-bottom: 60px;
+  }
+}
