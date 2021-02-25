@@ -1,3 +1,17 @@
+.el_btn {
+  display: inline-block;
+  width: 300px;
+  max-width: 100%;
+  padding: 20px 10px;
+  background-color: #e25c00;
+  border: 2px solid transparent;
+  box-shadow: 0 3px 6px rgb(0 0 0 / 16%);
+  color: #fff;
+  font-size: 1.125rem;
+  text-align: center;
+  text-decoration: none;
+  transition: .25s;
+}
 .ly_header {
   padding-top: 20px;
   border-bottom: 1px solid #ddd;
@@ -9,6 +23,7 @@
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
+  box-sizing: border-box;
 }
 
 .bl_headerUtils {
@@ -31,6 +46,10 @@
 .bl_headerNav {
   display: flex;
   justify-content: space-around;
+  padding-left: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+  list-style-type: none;
 }
 
 .bl_headerNav_item {
