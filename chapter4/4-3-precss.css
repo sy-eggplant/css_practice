@@ -3,6 +3,7 @@
   padding: 60px 15px;
   margin-right: auto;
   margin-left: auto;
+  box-sizing: border-box;
 }
 
 .hp_bgcBase {
