@@ -1,20 +1,15 @@
-<a class="el_btn el_btn__arrowRight" href="#">矢印付きボタン</a>
+<a class="el_btn el_btn__yellow" href="#">色違いボタン</a>
+<link rel="stylesheet" href="btn-css-precss.css">
+
 <style>
-.el_btn.el_btn__arrowRight {
-  position: relative;
-  padding-right: 2em;
-  padding-left: 1.38em;
+.el_btn.el_btn__yellow {
+  background-color: #f1de00;
+  color: #222;
 }
 
-.el_btn.el_btn__arrowRight::after {
-  content: '\f061';
-  position: absolute;
-  top: 50%;
-  right: .83em;
-  font-family: 'Font Awesome 5 Free';
-  font-weight: 900;
-  transform: translateY(-50%);
+.el_btn.el_btn__yellow:focus,
+.el_btn.el_btn__yellow:hover {
+  border-color: #f1de00;
+  background-color: #fff;
 }
-
-
 </style>

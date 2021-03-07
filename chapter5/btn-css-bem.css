@@ -11,12 +11,12 @@
     text-align: center;
     text-decoration: none;
     transition: .25s;
-  }
+}
   
-  .btn:focus,
-  .btn:hover {
+.btn:focus,
+.btn:hover {
     background-color: #fff;
     border-color: currentColor;
     color: #e25c00;
-  }
+}
   
