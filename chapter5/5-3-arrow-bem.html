@@ -1,0 +1,20 @@
+<a class="btn btn--arrow-right" href="#">矢印付きボタン</a>
+<link rel="stylesheet" href="btn-css-bem.css">
+<style>
+.btn--arrow-right {
+  position: relative;
+  padding-right: 2em;
+  padding-left: 1.38em;
+}
+
+.btn--arrow-right::after {
+  content: '\f061';
+  position: absolute;
+  top: 50%;
+  right: .83em;
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 900;
+  transform: translateY(-50%);
+}
+
+</style>
