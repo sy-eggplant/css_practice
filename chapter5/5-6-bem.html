@@ -1,0 +1,47 @@
+<span class="label">NEWS</span>
+<span class="label label--warning">PRESS RELEASE</span>
+<a class="label label--link" href="#">NEWS</a>
+<span class="rounded-label">NEWS</span>
+<style>
+.label {
+  display: inline-block;
+  padding: .2em .3em;
+  background-color: #e25c00;
+  color: #fff;
+  font-size: .75rem;
+  font-weight: bold;
+}
+
+.label--warning {
+  background-color: #f1de00;
+  color: #000;
+}
+
+/* リンクの時上書き? */
+/* .label {
+  border: 2px solid transparent;
+} */
+
+.label--link {
+  text-decoration: none;
+  transition: .25s;
+}
+
+.label--link:focus,
+.label--link:hover {
+  background-color: #fff;
+  border-color: currentColor;
+  color: #e25c00;
+}
+
+.rounded-label {
+  display: inline-block;
+  padding: .3em .9em;
+  background-color: #e25c00;
+  border-radius: 1em;
+  color: #fff;
+  font-size: .75rem;
+  font-weight: bold;
+}
+
+</style>
