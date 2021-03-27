@@ -1,0 +1,67 @@
+<nav class="bl_tabNav">
+    <ul class="bl_tabNav_inner">
+      <li>
+        <span class="bl_tabNav_link is_active">契約・手続きについて</span>
+      </li>
+      <li>
+        <a class="bl_tabNav_link" href="#">製品について</a>
+      </li>
+      <li>
+        <a class="bl_tabNav_link" href="#">キャンペーンについて</a>
+      </li>
+      <li>
+        <a class="bl_tabNav_link" href="#">会員機能について</a>
+      </li>
+      <li>
+        <a class="bl_tabNav_link" href="#">各種お手続きについて</a>
+      </li>
+    </ul>
+  </nav>
+  <style>
+      .bl_tabNav_inner {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: -10px;
+}
+
+.bl_tabNav_link {
+  display: inline-block;
+  padding-right: 30px;
+  padding-bottom: 10px;
+  padding-left: 30px;
+  margin-bottom: 10px;
+  border-bottom: 4px solid #efefef;
+  color: #777;
+  text-decoration: none;
+  transition: .25s;
+}
+
+.bl_tabNav_link:focus,
+.bl_tabNav_link:hover {
+  border-bottom-color: currentColor;
+  color: #e25c00;
+  opacity: .75;
+}
+
+.bl_tabNav_link.is_active {
+  border-bottom-color: currentColor;
+  color: #e25c00;
+  pointer-events: none;
+}
+
+@media screen and (max-width: 768px) {
+  .bl_tabNav {
+    overflow-x: auto;
+  }
+
+  .bl_tabNav_inner {
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    margin-bottom: 0;
+    white-space: nowrap;
+  }
+}
+
+  </style>
