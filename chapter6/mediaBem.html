@@ -1,0 +1,160 @@
+<div class="media">
+  <figure class="media__img-wrapper">
+    <img class="media__img" alt="写真：手に持たれたスマホ" src="/assets/img/elements/persona.jpg">
+  </figure>
+  <div class="media__body">
+    <h3 class="media__title">
+      ユーザーを考えた設計で満足な体験を
+    </h3>
+    <p class="media__text">
+      提供するサービスやペルソナによって、webサイトの設計は異なります。サービスやペルソナに合わせた設計を行うことにより、訪問者にストレスのないよりよい体験を生み出し、満足を高めることとなります。<br>
+      わたしたちはお客さまのサイトに合ったユーザビリティを考えるため、分析やヒアリングをきめ細かく実施、満足を体験できるクリエイティブとテクノロジーを設計・構築し、今までにない期待を超えたユーザー体験を提供いたします。
+    </p>
+  </div>
+  <!-- /.media__body -->
+</div>
+<!-- /.media -->
+
+<div class="media media--reverse">
+  <figure class="media__img-wrapper">
+    <img class="media__img" alt="写真：手に持たれたスマホ" src="/assets/img/elements/persona.jpg">
+  </figure>
+  <div class="media__body">
+    <h3 class="media__title">
+      ユーザーを考えた設計で満足な体験を
+    </h3>
+    <p class="media__text">
+      提供するサービスやペルソナによって、webサイトの設計は異なります。サービスやペルソナに合わせた設計を行うことにより、訪問者にストレスのないよりよい体験を生み出し、満足を高めることとなります。<br>
+      わたしたちはお客さまのサイトに合ったユーザビリティを考えるため、分析やヒアリングをきめ細かく実施、満足を体験できるクリエイティブとテクノロジーを設計・構築し、今までにない期待を超えたユーザー体験を提供いたします。
+    </p>
+  </div>
+  <!-- /.media__body -->
+</div>
+<!-- /.media media--reverse -->
+
+<div class="half-media">
+  <figure class="half-media__img-wrapper">
+    <img class="half-media__img" alt="写真：手に持たれたスマホ" src="/assets/img/elements/persona.jpg">
+  </figure>
+  <div class="half-media__body">
+    <h3 class="half-media__title">
+      ユーザーを考えた設計で満足な体験を
+    </h3>
+    <p class="half-media__text">
+      提供するサービスやペルソナによって、webサイトの設計は異なります。サービスやペルソナに合わせた設計を行うことにより、訪問者にストレスのないよりよい体験を生み出し、満足を高めることとなります。<br>
+      わたしたちはお客さまのサイトに合ったユーザビリティを考えるため、分析やヒアリングをきめ細かく実施、満足を体験できるクリエイティブとテクノロジーを設計・構築し、今までにない期待を超えたユーザー体験を提供いたします。
+    </p>
+  </div>
+  <!-- /.half-media__body -->
+</div>
+<!-- /.half-media -->
+
+<style>
+.media {
+  display: flex;
+  align-items: center;
+}
+
+.media__img-wrapper {
+  flex: 0 1 27.58333%;
+  margin-right: 3.33333%;
+}
+
+.media__img {
+  width: 100%;
+}
+
+.media__body {
+  flex: 1;
+}
+
+.media__body > *:last-child {
+  margin-bottom: 0;
+}
+
+.media__title {
+  margin-bottom: 10px;
+  font-size: 1.125rem;
+  font-weight: bold;
+}
+
+.media__text {
+  /* css-wipeではスタイリングなし */
+}
+
+@media screen and (max-width: 768px) {
+  .media {
+    display: block;
+  }
+
+  .media__img-wrapper {
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+}
+
+/* 逆位置 */
+.media--reverse {
+  flex-direction: row-reverse;
+}
+
+.media--reverse .media__img-wrapper {
+  margin-right: 0;
+}
+
+.media--reverse .media__body {
+  margin-right: 3.33333%;
+  text-align: right;
+}
+
+@media screen and (max-width: 768px) {
+  .media--reverse .media__body {
+    margin-right: 0;
+  }
+}
+
+/* 画像半分サイズ */
+.half-media {
+  display: flex;
+  align-items: center;
+}
+
+.half-media__img-wrapper {
+  flex: 0 1 48.33333%;
+  margin-right: 3.33333%;
+}
+
+.half-media__img {
+  width: 100%;
+}
+
+.half-media__body {
+  flex: 1;
+}
+
+.half-media__body > *:last-child {
+  margin-bottom: 0;
+}
+
+.half-media__title {
+  margin-bottom: 10px;
+  font-size: 1.125rem;
+  font-weight: bold;
+}
+
+.half-media__text {
+  /* css-wipeではスタイリングなし */
+}
+
+@media screen and (max-width: 768px) {
+  .half-media {
+    display: block;
+  }
+
+  .half-media__img-wrapper {
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+}
+
+</style>
