@@ -11,7 +11,10 @@ div {
 a {
   text-decoration: none;
 }
-
+main {
+  max-width: 500px;
+  margin: auto;
+}
 /* header */
 .header-logo{
   display: flex;
@@ -27,7 +30,7 @@ a {
   background-color: palevioletred;
   align-items: center;
   justify-content: center;
-  width: 990px;
+  /* width: 990px; */
   height: 66px;
   margin: 0 auto;
   /* モディファイア？ */
@@ -94,3 +97,22 @@ a {
   font-size: 14px;
 }
 /* mainコンテンツ */
+.article-latest__list {
+  /* display: flex;
+  flex-wrap: wrap; */
+}
+.list-article-contents {
+  display: flex;
+  flex-wrap: wrap;
+}
+.list-article-contents__caption {
+  display: flex;
+  overflow: hidden;
+  flex: 1;
+  flex-flow: column;
+  margin: 0 0 0 20px;
+}
+.list-article-contents__img {
+  width: 160px;
+  display: flex;
+}
