@@ -1,72 +1,71 @@
 <nav class="bl_pager">
-    <ul class="bl_pager_inner">
-      <li>
-        <a class="bl_pager_link" href="#"><i class="fas fa-angle-double-left"></i></a>
-      </li>
-      <li>
-        <a class="bl_pager_link" href="#"><i class="fas fa-angle-left"></i></a>
-      </li>
-      <li>
-        <span class="bl_pager_link is_active">1</span>
-      </li>
-      <li>
-        <a class="bl_pager_link" href="#">2</a>
-      </li>
-      <li>
-        <a class="bl_pager_link" href="#">3</a>
-      </li>
-      <li>
-        <a class="bl_pager_link" href="#"><i class="fas fa-angle-right"></i></a>
-      </li>
-      <li>
-        <a class="bl_pager_link" href="#"><i class="fas fa-angle-double-right"></i></a>
-      </li>
-    </ul>
-  </nav>
+  <ul class="bl_pager_inner">
+    <li>
+      <a class="bl_pager_link" href="#"><i class="fas fa-angle-double-left"></i></a>
+    </li>
+    <li>
+      <a class="bl_pager_link" href="#"><i class="fas fa-angle-left"></i></a>
+    </li>
+    <li>
+      <span class="bl_pager_link is_active">1</span>
+    </li>
+    <li>
+      <a class="bl_pager_link" href="#">2</a>
+    </li>
+    <li>
+      <a class="bl_pager_link" href="#">3</a>
+    </li>
+    <li>
+      <a class="bl_pager_link" href="#"><i class="fas fa-angle-right"></i></a>
+    </li>
+    <li>
+      <a class="bl_pager_link" href="#"><i class="fas fa-angle-double-right"></i></a>
+    </li>
+  </ul>
+</nav>
 
-  <style>
-      .bl_pager {
-  display: flex;
-  overflow-x: auto;
-}
+<style>
+  .bl_pager {
+    display: flex;
+    overflow-x: auto;
+  }
 
-.bl_pager_inner {
-  display: flex;
-  margin-right: auto;
-  margin-left: auto;
-}
+  .bl_pager_inner {
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+  }
 
-.bl_pager_inner > *:last-child {
-  margin-right: 0;
-}
+  .bl_pager_inner>*:last-child {
+    margin-right: 0;
+  }
 
-.bl_pager_inner > li {
-  margin-right: 15px;
-}
+  .bl_pager_inner>li {
+    margin-right: 15px;
+  }
 
-.bl_pager_link {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 40px;
-  height: 40px;
-  border: 1px solid currentColor;
-  color: #e25c00;
-  text-decoration: none;
-  transition: .25s;
-}
+  .bl_pager_link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border: 1px solid currentColor;
+    color: #e25c00;
+    text-decoration: none;
+    transition: .25s;
+  }
 
-.bl_pager_link:focus,
-.bl_pager_link:hover {
-  background-color: #e25c00;
-  color: #fff;
-  opacity: .75;
-}
+  .bl_pager_link:focus,
+  .bl_pager_link:hover {
+    background-color: #e25c00;
+    color: #fff;
+    opacity: .75;
+  }
 
-.bl_pager_link.is_active {
-  background-color: #e25c00;
-  color: #fff;
-  pointer-events: none;
-}
-
-  </style>
+  .bl_pager_link.is_active {
+    background-color: #e25c00;
+    color: #fff;
+    pointer-events: none;
+  }
+</style>
