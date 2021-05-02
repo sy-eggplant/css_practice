@@ -1,72 +1,73 @@
-<ul class="bullet-list">
-  <li class="bullet-list__item">
+<ul class="bl_bulletList">
+  <li>
     webコンサルティング
   </li>
-  <li class="bullet-list__item">
+  <li>
     デジタルマーケティング支援
   </li>
-  <li class="bullet-list__item">
+  <li>
     CMS構築
   </li>
-  <li class="bullet-list__item">
+  <li>
     CSS設計
   </li>
 </ul>
-<ul class="bullet-list bullet-list--horizontal">
-  <li class="bullet-list__item">
+<ul class="bl_bulletList bl_bulletList__horiz">
+  <li>
     webコンサルティング
   </li>
-  <li class="bullet-list__item">
+  <li>
     デジタルマーケティング支援
   </li>
-  <li class="bullet-list__item">
+  <li>
     CMS構築
   </li>
-  <li class="bullet-list__item">
+  <li>
     CSS設計
   </li>
 </ul>
-<ul class="bullet-list">
-  <li class="bullet-list__item">
+
+<ul class="bl_bulletList">
+  <li>
     webコンサルティング
   </li>
-  <li class="bullet-list__item">
+  <li>
     デジタルマーケティング支援
   </li>
-  <li class="bullet-list__item">
+  <li>
     CMS構築
   </li>
-  <li class="bullet-list__item">
+  <li>
     CSS設計
-    <ul class="child-bullet-list">
-      <li class="child-bullet-list__item">
+    <ul>
+      <li>
         BEM
       </li>
-      <li class="child-bullet-list__item">
+      <li>
         FLOCSS
       </li>
-      <li class="child-bullet-list__item">
+      <li>
         PRECSS
       </li>
     </ul>
   </li>
 </ul>
 <style>
-  .bullet-list {
+  .bl_bulletList {
     /* css-wipeではスタイリングなし */
   }
 
-  .bullet-list>*:last-child {
+  .bl_bulletList>*:last-child {
     margin-bottom: 0;
   }
 
-  .bullet-list__item {
+  .bl_bulletList>li {
     position: relative;
     padding-left: 1em;
     margin-bottom: 10px;
   }
 
-  .bullet-list__item::before {
+  .bl_bulletList>li::before {
     content: '';
     position: absolute;
     top: .5em;
@@ -78,33 +79,33 @@
     border-radius: 50%;
   }
 
-  .bullet-list--horizontal {
+  .bl_bulletList.bl_bulletList__horiz {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     margin-bottom: -10px;
   }
 
-  .bullet-list--horizontal .bullet-list__item {
+  .bl_bulletList.bl_bulletList__horiz>li {
     flex: calc(50% - 5px);
     margin-right: 10px;
   }
 
-  .bullet-list--horizontal .bullet-list__item:nth-of-type(even) {
+  .bl_bulletList.bl_bulletList__horiz>li:nth-of-type(even) {
     margin-right: 0;
   }
 
-  .child-bullet-list {
+  .bl_bulletList ul {
     padding-left: 1.5em;
     margin-top: 10px;
     list-style-type: circle;
   }
 
-  .child-bullet-list>*:last-child {
+  .bl_bulletList ul>*:last-child {
     margin-bottom: 0;
   }
 
-  .child-bullet-list__item {
+  .bl_bulletList ul>li {
     margin-bottom: 10px;
   }
 </style>

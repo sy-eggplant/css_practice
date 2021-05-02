@@ -1,0 +1,90 @@
+<ol class="order-list">
+  <li class="order-list__item">
+    webコンサルティング
+  </li>
+  <li class="order-list__item">
+    デジタルマーケティング支援
+  </li>
+  <li class="order-list__item">
+    CMS構築
+  </li>
+  <li class="order-list__item">
+    CSS設計
+  </li>
+</ol>
+
+<ol class="order-list">
+  <li class="order-list__item">
+    webコンサルティング
+  </li>
+  <li class="order-list__item">
+    デジタルマーケティング支援
+  </li>
+  <li class="order-list__item">
+    CMS構築
+  </li>
+  <li class="order-list__item">
+    CSS設計
+    <ol class="child-order-list">
+      <li class="child-order-list__item">
+        BEM
+      </li>
+      <li class="child-order-list__item">
+        FLOCSS
+      </li>
+      <li class="child-order-list__item">
+        PRECSS
+      </li>
+    </ol>
+  </li>
+</ol>
+
+<style>
+  .order-list {
+    counter-reset: order-list;
+  }
+
+  .order-list>*:last-child {
+    margin-bottom: 0;
+  }
+
+  .order-list__item {
+    position: relative;
+    padding-left: 1em;
+    margin-bottom: 10px;
+  }
+
+  .order-list__item::before {
+    content: counter(order-list) '. ';
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: #e25c00;
+    font-weight: bold;
+    counter-increment: order-list;
+  }
+
+  .child-order-list {
+    margin-top: 10px;
+    counter-reset: child-order-list;
+  }
+
+  .child-order-list>*:last-child {
+    margin-bottom: 0;
+  }
+
+  .child-order-list__item {
+    position: relative;
+    padding-left: 1em;
+    margin-top: 10px;
+  }
+
+  .child-order-list__item::before {
+    content: counter(child-order-list) '. ';
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: #e25c00;
+    counter-increment: child-order-list;
+  }
+</style>
