@@ -1,0 +1,14 @@
+.el_btn.el_btn__arrowRight {
+  position: relative;
+  padding-right: 2em;
+  padding-left: 1.38em;
+}
+.el_btn.el_btn__arrowRight::after {
+  content: '\f061';
+  position: absolute;
+  top: 50%;
+  right: .83em;
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 900;
+  transform: translateY(-50%);
+}
